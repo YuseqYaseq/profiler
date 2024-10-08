@@ -1,0 +1,29 @@
+
+image 1/1 /home/joseph/dev/neureality/data/zidane.jpg: 384x640 2 persons, 2 ties, 22.3ms
+Speed: 1.1ms preprocess, 22.3ms inference, 68.5ms postprocess per image at shape (1, 3, 384, 640)
+2.7720327377319336
+Name | Time total
+Module._wrapped_call_impl: 6988.858ms
+Module._call_impl: 6906.664ms
+BaseModel.forward: 1964.391ms
+BaseModel.predict: 1963.422ms
+BaseModel._predict_once: 1961.951ms
+Detect.forward: 945.409ms
+Conv.forward_fuse: 835.773ms
+Detect._inference: 667.270ms
+Sequential.forward: 663.391ms
+C2f.forward: 650.835ms
+make_anchors: 604.172ms
+torch.full: 548.243ms
+Conv2d.forward: 537.413ms
+Conv2d._conv_forward: 477.798ms
+torch.conv2d: 451.541ms
+LoadImagesAndVideos.__next__: 430.485ms
+imread: 427.613ms
+extend: 423.305ms
+C2f.forward.<locals>.<genexpr>: 404.464ms
+Bottleneck.forward: 268.036ms
+
+
+
+
